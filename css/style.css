@@ -1,0 +1,92 @@
+/*----------Global------------*/
+h1 {
+    color: chocolate;
+    font-size: 3.2em;
+}
+
+/*----------Header------------*/
+@media (min-width: 1200px) {
+   .image {
+        width: 100%
+    }
+}
+
+@media (max-width: 770px) {
+   .image {
+        width: 190%
+    }
+}
+
+
+
+/*------------navigation----------------*/
+
+.navbar {
+    background: none;
+    border: none;
+  
+}
+.nav {
+    float: right;
+    padding-right: 40px;
+      margin-top: -40px;
+    font-size: 1.4em;
+}
+
+.nav li {
+    padding-right: 20px;
+}
+
+/*-------------main Content-------------*/
+.middle {
+   padding-top: -20px;
+}
+
+@media (max-width: 770px) {
+   .nav {
+        float:left;
+       margin-top: 10px;
+        
+    }
+}
+
+
+
+
+/*------------image sizing of the media content--------*/
+
+@media (min-width: 1200px) {
+   .img-responsive {
+        max-width: 170%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .img-responsive {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .img-responsive {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 772px) {
+    .img-responsive {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 772px) {
+    #space2, #space3 {
+       padding-top: 30px;
+    }
+}
+
+/*-------------Footer------------*/
+
+footer {
+    padding-bottom: 150px;
+}
